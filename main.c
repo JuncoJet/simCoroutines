@@ -7,12 +7,12 @@ delay(int t,int x){
 	xc[x]=(xc[x]?xc[x]:timeGetTime())+t;
 }
 block1(){
-    puts("block1 delay 1000");
-    delay(1000,0);
+	puts("block1 delay 1000");
+	delay(1000,0);
 }
 block2(){
-    puts("block2 delay 2000");
-    delay(2000,1);
+	puts("block2 delay 2000");
+	delay(2000,1);
 }
 setup(){
 	
@@ -25,5 +25,5 @@ loop(){
 }
 main(){
 	setup();
-    for(;;)loop();
+	for(;;)loop();
 }
